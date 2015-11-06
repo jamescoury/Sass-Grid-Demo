@@ -7,3 +7,5 @@ The main.scss file should not include any CSS other than @imports. When creating
 When using variables or mixins, use @include to whatever files the new file depends on.
 
 Never edit vendor files. Instead, make your changes in the vendors/vendoredits.scss file and that will cascade over the vendor defaults. And you should only do this if you really know what you are doing.
+
+You will see that the HTML is completely free of any grid-dependent classes or IDs. I used CSS for the grid layout and presentation layer as it should be. In a scalable app, you would never have to edit HTML to manipulate your grid or update HTML if the vendor made changes or deprecated features.
