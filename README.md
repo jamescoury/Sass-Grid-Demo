@@ -1,3 +1,5 @@
+<a href="http://htmlpreview.github.io/?https://github.com/jamescoury/Sass-Grid-Demo/blob/master/index.html">Check it out</a>
+
 This is an example project displaying the simplicity and scalability of Sass. I used SCSS syntax rather than Sass. I added Bourbon and Neat and created a sample grid that is responsive and very lightweight.
 
 Do not edit the .css file directly. Sass compiles all .scss files into one main.css file using Grunt.js. If you edit main.css, your changes will be overidden when someone else changes any .scss file.
