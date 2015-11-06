@@ -1,0 +1,70 @@
+// Grid
+@import '../vendors/bourbon/bourbon';
+@import '../vendors/neat/neat';
+@import '../vendors/neat/neat-helpers';
+@import '../base/base';
+
+* {
+    padding: 0 $padding;
+}
+
+main {
+   @include outer-container($max-width);
+
+    background-color: $light-grey;
+    padding: 0;
+}
+
+section {
+    @include span-columns($columns);
+    padding: 0;
+}
+
+#one {
+    background-color: $red;
+    @include span-columns($one-third of $columns);
+}
+
+#two {
+    background-color: $orange;
+    @include span-columns($one-third of $columns);
+}
+
+#three {
+    background-color: $yellow;
+    @include span-columns($one-third of $columns);
+}
+
+#four {
+    background-color: $green;
+    @include span-columns($one-third of $columns);
+}
+
+#five {
+    background-color: $blue;
+    @include span-columns($two-thirds of $columns);
+}
+
+#six {
+    background-color: $indigo;
+    @include span-columns($one-third of $columns);
+    @include shift($one-third of $columns);
+}
+
+#one,
+#two,
+#three,
+#four,
+#five,
+#six {
+    @media screen and (max-width: $tablet) {
+        @include span-columns($columns of $columns);
+    }
+}
+
+#six {
+    @media screen and (max-width: $tablet) {
+        @include shift(0 of $columns);
+    }
+}
+
