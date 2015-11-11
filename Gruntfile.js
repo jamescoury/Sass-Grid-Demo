@@ -12,7 +12,7 @@ module.exports = function(grunt) {
                     sourcemap: 'none'
                 },
                 files: {
-                    'main.css': 'scss/main.scss'
+                    'css/main.css': 'scss/main.scss'
                 }
             }
         },
@@ -20,16 +20,12 @@ module.exports = function(grunt) {
             sass: {
                 files: ['scss/**/*.scss'],
                 tasks: ['sass', 'cssmin']
-            },
-            livereload: {
-                options: { livereload:  1340 },
-                files: ['main.css'],
             }
         },
         cssmin: {
             my_target: {
-                src: 'main.css',
-                dest: 'main.min.css'
+                src: 'css/main.css',
+                dest: 'css/main.min.css'
             }
         }
     });

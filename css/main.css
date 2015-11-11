@@ -1,19 +1,19 @@
-/* line 4, scss/vendors/neat/grid/_box-sizing.scss */
+/* line 4, ../scss/vendors/neat/grid/_box-sizing.scss */
 html {
   box-sizing: border-box;
 }
 
-/* line 9, scss/vendors/neat/grid/_box-sizing.scss */
+/* line 9, ../scss/vendors/neat/grid/_box-sizing.scss */
 *, *::after, *::before {
   box-sizing: inherit;
 }
 
-/* line 7, scss/base/_grid.scss */
+/* line 7, ../scss/base/_grid.scss */
 * {
   padding: 0 11px;
 }
 
-/* line 11, scss/base/_grid.scss */
+/* line 11, ../scss/base/_grid.scss */
 main {
   max-width: 900px;
   margin-left: auto;
@@ -21,14 +21,14 @@ main {
   background-color: #ccc;
   padding: 0;
 }
-/* line 20, scss/vendors/bourbon/addons/_clearfix.scss */
+/* line 20, ../scss/vendors/bourbon/addons/_clearfix.scss */
 main::after {
   clear: both;
   content: "";
   display: table;
 }
 
-/* line 18, scss/base/_grid.scss */
+/* line 17, ../scss/base/_grid.scss */
 section {
   float: left;
   display: block;
@@ -36,12 +36,12 @@ section {
   width: 100%;
   padding: 0;
 }
-/* line 89, scss/vendors/neat/grid/_span-columns.scss */
+/* line 89, ../scss/vendors/neat/grid/_span-columns.scss */
 section:last-child {
   margin-right: 0;
 }
 
-/* line 23, scss/base/_grid.scss */
+/* line 22, ../scss/base/_grid.scss */
 #one {
   background-color: #f04460;
   float: left;
@@ -49,12 +49,12 @@ section:last-child {
   margin-right: 2.35765%;
   width: 31.76157%;
 }
-/* line 89, scss/vendors/neat/grid/_span-columns.scss */
+/* line 89, ../scss/vendors/neat/grid/_span-columns.scss */
 #one:last-child {
   margin-right: 0;
 }
 
-/* line 28, scss/base/_grid.scss */
+/* line 27, ../scss/base/_grid.scss */
 #two {
   background-color: #ffc2a3;
   float: left;
@@ -62,12 +62,12 @@ section:last-child {
   margin-right: 2.35765%;
   width: 31.76157%;
 }
-/* line 89, scss/vendors/neat/grid/_span-columns.scss */
+/* line 89, ../scss/vendors/neat/grid/_span-columns.scss */
 #two:last-child {
   margin-right: 0;
 }
 
-/* line 33, scss/base/_grid.scss */
+/* line 32, ../scss/base/_grid.scss */
 #three {
   background-color: #fbf47a;
   float: left;
@@ -75,12 +75,12 @@ section:last-child {
   margin-right: 2.35765%;
   width: 31.76157%;
 }
-/* line 89, scss/vendors/neat/grid/_span-columns.scss */
+/* line 89, ../scss/vendors/neat/grid/_span-columns.scss */
 #three:last-child {
   margin-right: 0;
 }
 
-/* line 38, scss/base/_grid.scss */
+/* line 37, ../scss/base/_grid.scss */
 #four {
   background-color: #b3f2e5;
   float: left;
@@ -88,12 +88,12 @@ section:last-child {
   margin-right: 2.35765%;
   width: 31.76157%;
 }
-/* line 89, scss/vendors/neat/grid/_span-columns.scss */
+/* line 89, ../scss/vendors/neat/grid/_span-columns.scss */
 #four:last-child {
   margin-right: 0;
 }
 
-/* line 43, scss/base/_grid.scss */
+/* line 42, ../scss/base/_grid.scss */
 #five {
   background-color: #6fa1f8;
   float: left;
@@ -101,12 +101,12 @@ section:last-child {
   margin-right: 2.35765%;
   width: 65.88078%;
 }
-/* line 89, scss/vendors/neat/grid/_span-columns.scss */
+/* line 89, ../scss/vendors/neat/grid/_span-columns.scss */
 #five:last-child {
   margin-right: 0;
 }
 
-/* line 48, scss/base/_grid.scss */
+/* line 47, ../scss/base/_grid.scss */
 #six {
   background-color: #8afad1;
   float: left;
@@ -115,13 +115,13 @@ section:last-child {
   width: 31.76157%;
   margin-left: 34.11922%;
 }
-/* line 89, scss/vendors/neat/grid/_span-columns.scss */
+/* line 89, ../scss/vendors/neat/grid/_span-columns.scss */
 #six:last-child {
   margin-right: 0;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 54, scss/base/_grid.scss */
+  /* line 54, ../scss/base/_grid.scss */
   #one,
   #two,
   #three,
@@ -133,7 +133,7 @@ section:last-child {
     margin-right: 2.35765%;
     width: 100%;
   }
-  /* line 89, scss/vendors/neat/grid/_span-columns.scss */
+  /* line 89, ../scss/vendors/neat/grid/_span-columns.scss */
   #one:last-child,
   #two:last-child,
   #three:last-child,
@@ -143,20 +143,18 @@ section:last-child {
     margin-right: 0;
   }
 }
-
 @media screen and (max-width: 768px) {
-  /* line 65, scss/base/_grid.scss */
+  /* line 65, ../scss/base/_grid.scss */
   #six {
     margin-left: 0%;
   }
 }
-
-/* line 4, scss/vendors/neat/grid/_box-sizing.scss */
+/* line 4, ../scss/vendors/neat/grid/_box-sizing.scss */
 html {
   box-sizing: border-box;
 }
 
-/* line 9, scss/vendors/neat/grid/_box-sizing.scss */
+/* line 9, ../scss/vendors/neat/grid/_box-sizing.scss */
 *, *::after, *::before {
   box-sizing: inherit;
 }
