@@ -1,4 +1,4 @@
-<a href="http://htmlpreview.github.io/?https://github.com/jamescoury/Sass-Grid-Demo/blob/master/index.html">Check it out</a>
+Click here to <a href="http://htmlpreview.github.io/?https://github.com/jamescoury/Sass-Grid-Demo/blob/master/index.html">check out the demo</a>.
 
 This is an example project displaying the simplicity and scalability of Sass. I used SCSS syntax rather than Sass. I added Bourbon and Neat and created a sample grid that is responsive and very lightweight.
 
